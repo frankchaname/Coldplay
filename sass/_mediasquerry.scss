@@ -1,0 +1,42 @@
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: whitesmoke;
+        color: #000;
+    }
+
+    .img-container img {
+        width: 95% !important;
+    }
+
+}
+
+/* tablet */
+
+@media only screen and (min-width: 641px) and (max-width: 991px) {
+    body {
+        background-color: lightgrey;
+    }
+
+    .img-container img {
+        width: 40% !important;
+    }
+
+}
+
+/* desktop */
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: white;
+    }
+
+    .carousel-inner {
+        width: 95%;
+        height: 900px;
+        margin: auto;
+    }
+
+    .img-contact {
+        padding-left: 22px;
+    }
+}

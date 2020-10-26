@@ -1,0 +1,97 @@
+.navbar {
+  background-color: #f0f8ff;
+  justify-content: center;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.navbar-brand {
+  letter-spacing: 10px;
+  font-size: 40px;
+}
+
+.collapse .navbar-nav .nav-item {
+  padding: 0 auto;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.collapse ul li a:hover {
+  background-color: #42bb81;
+}
+
+.img img {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: -10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-spotify {
+  padding: 0 auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  font-family: "Lato";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Catamaran";
+  font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: whitesmoke;
+    color: #000;
+  }
+
+  .img-container img {
+    width: 95% !important;
+  }
+}
+/* tablet */
+@media only screen and (min-width: 641px) and (max-width: 991px) {
+  body {
+    background-color: lightgrey;
+  }
+
+  .img-container img {
+    width: 40% !important;
+  }
+}
+/* desktop */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: white;
+  }
+
+  .carousel-inner {
+    width: 95%;
+    height: 900px;
+    margin: auto;
+  }
+
+  .img-contact {
+    padding-left: 22px;
+  }
+}
+.rounded-circle:hover {
+  transform: rotate(30deg);
+  transition: all 5s linear;
+}
+
+/*# sourceMappingURL=style.css.map */
