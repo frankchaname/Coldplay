@@ -62,6 +62,10 @@ h6 {
   .img-container img {
     width: 95% !important;
   }
+
+  .img img {
+    padding-top: 100px;
+  }
 }
 /* tablet */
 @media only screen and (min-width: 641px) and (max-width: 991px) {
@@ -89,9 +93,5 @@ h6 {
     padding-left: 22px;
   }
 }
-/* .rounded-circle:hover {
-  transform: rotate(30deg);
-  transition: all 5s linear;
-} */
 
 /*# sourceMappingURL=style.css.map */
